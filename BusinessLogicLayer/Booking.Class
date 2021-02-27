@@ -1,3 +1,5 @@
+package BusinessLogicLayer;
+
 public class Bookings implements Serializable {
     private String BookingID;
     private String BookingType;

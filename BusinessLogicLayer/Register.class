@@ -1,3 +1,5 @@
+package BusinessLogicLayer;
+
 public class Register mplements Serializable {
     private String Clientname;
     private String ClientSurname;

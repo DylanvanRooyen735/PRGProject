@@ -1,3 +1,5 @@
+package BusinessLogicLayer;
+
 public class FunctionDetails implements Serializable {
     private String Clientname;
     private String ClientSurname;
