@@ -1,0 +1,55 @@
+public class Bookings implements Serializable {
+    private String BookingID;
+    private String BookingType;
+    private String BookingDate;
+    private String BookingPrice;
+    private String BookingDiscount;
+    private String BookingConfirmation;
+   
+
+    
+    public BookingData (ClientBookingNumberString BookingID, String BookingType, String BookingDate, string BookingPrice, string BookingDiscount, string BookingConfirmation) {
+     
+     this.BookingID = BookingID;
+     this.BookingType = BookingType;
+     this.BookingDate = BookingDate;
+     this.BookingPrice = BookingPrice;
+     this.BookingDiscount = BookingDiscount;
+     this.BookingConfirmation = BookingConfirmation;
+    }
+    public String BookingID() {
+        return Clientname;
+       }
+       public void setBookingID(String BookingID) {
+        this.BookingID = BookingID;
+       }
+       public String getBookingID() {
+        return BookingID;
+       }
+       public void setBookingType(String BookingType) {
+        this.BookingType = BookingType;
+       }
+       public String getBookingDate() {
+        return BookingDate;
+       }
+       public void setBookingDate(String BookingDate) {
+        this.BookingDate = BookingDate;
+       }
+       public String getBookingPrice() {
+          return BookingPrice;
+         }
+         public void setBookingPrice(String BookingPrice) {
+          this.BookingPrice = BookingPrice;
+         }
+         public String getBookingDiscount() {
+          return BookingDiscount;
+         }
+         public void setBookingDiscount(String BookingDiscount) {
+          this.BookingDiscount = BookingDiscount;
+         }
+         public String getBookingConfirmation() {
+            return BookingConfirmation;
+           }
+           public void setBookingConfirmation(String BookingConfirmation) {
+            this.BookingConfirmation = BookingConfirmation;
+           }
