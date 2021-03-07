@@ -8,6 +8,7 @@ package BusinessLogicLayer;
 import java.io.*;
 /**
  *
+ * *
  * @author User
  */
 public class Client implements Serializable {
