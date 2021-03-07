@@ -51,4 +51,13 @@ public class Bookings{
            public void setBookingConfirmation(String BookingConfirmation) {
             this.BookingConfirmation = BookingConfirmation;
            }
+      public List<String>GetBookingInfo(BookingID,BookingType,BookingDate,BookingPrice)
+        {
+            List<String>GetBookingInfo = new ArrayList<String>();
+            GetBookingInfo.add("BO0012");
+            GetBookingInfo.add("Wedding");
+            GetBookingInfo.add("21March2021");
+            GetBookingInfo.add("R20000");
+           return GetBookingInfo;
+        }
 }
