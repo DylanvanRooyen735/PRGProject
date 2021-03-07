@@ -1,35 +1,31 @@
 package BusinessLogicLayer;
 
-public class Bookings implements Serializable {
+public class Bookings{
     private String BookingID;
-    private String BookingType;
     private String BookingDate;
     private String BookingPrice;
     private String BookingDiscount;
     private String BookingConfirmation;
-   
 
-    
-    public BookingData (ClientBookingNumberString BookingID, String BookingType, String BookingDate, string BookingPrice, string BookingDiscount, string BookingConfirmation) {
-     
-     this.BookingID = BookingID;
-     this.BookingType = BookingType;
-     this.BookingDate = BookingDate;
-     this.BookingPrice = BookingPrice;
-     this.BookingDiscount = BookingDiscount;
-     this.BookingConfirmation = BookingConfirmation;
-    }
-    public String BookingID() {
-        return Clientname;
-       }
-       public void setBookingID(String BookingID) {
+    public Bookings(String BookingID, String BookingType, String BookingDate, String BookingPrice,
+            String BookingDiscount, String BookingConfirmation) {
+
         this.BookingID = BookingID;
-       }
-       public String getBookingID() {
+        this.BookingDate = BookingDate;
+        this.BookingPrice = BookingPrice;
+        this.BookingDiscount = BookingDiscount;
+        this.BookingConfirmation = BookingConfirmation;
+    }
+
+    public void setBookingID(String BookingID) {
+        this.BookingID = BookingID;
+    }
+
+    public String getBookingID() {
         return BookingID;
-       }
-       public void setBookingType(String BookingType) {
-        this.BookingType = BookingType;
+    }
+
+    public void setBookingType(String BookingType) {
        }
        public String getBookingDate() {
         return BookingDate;
