@@ -1,6 +1,6 @@
 package BusinessLogicLayer;
 
-public class Register mplements Serializable {
+public class Register implements Serializable {
     private String Clientname;
     private String ClientSurname;
     private String ClientNumber;
@@ -50,3 +50,4 @@ public class Register mplements Serializable {
        public void setClientPassword(String ClientPassword) {
         this.ClientPassword = ClientPassword;
        }
+}

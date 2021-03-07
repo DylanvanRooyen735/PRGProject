@@ -55,3 +55,4 @@ public class Bookings implements Serializable {
            public void setBookingConfirmation(String BookingConfirmation) {
             this.BookingConfirmation = BookingConfirmation;
            }
+}

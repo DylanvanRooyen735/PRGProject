@@ -23,4 +23,4 @@ public class FunctionDetails implements Serializable {
      this.FoodSelection = FoodSelection;
    
     }
-    
+} 
